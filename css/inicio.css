@@ -116,7 +116,8 @@ a.contenido {
     border: 1px solid white; }
 
 .boletin {
-  text-align: center; }
+  text-align: center;
+  margin-top: 20px; }
   .boletin h3 {
     font-size: 14px;
     line-height: 20px; }
