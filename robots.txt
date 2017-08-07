@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: http://xn--animesenespaol-1nb.com/
+Allow: 
+

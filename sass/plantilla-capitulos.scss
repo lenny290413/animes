@@ -1,0 +1,26 @@
+@import "_lg-grid";
+.video{
+    height: 400px;
+    
+}
+.video-js{
+    width: 100% !important;
+    height: 100% !important;
+}
+.video-contenedor{
+    @include flexbox;
+    flex-direction: column;
+}
+.botones{
+    @include flexbox;
+    width: 90%;
+    a{
+        @include flexbox;
+        flex: auto !important;
+        padding: 10px;
+        font-size: 20px;
+        color: $color-secundario;
+        border: 1px solid $color-primario;
+        margin: 5px;
+    }
+}

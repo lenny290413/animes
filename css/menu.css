@@ -1,0 +1,102 @@
+header {
+  background: #3A4750;
+  width: 100%;
+  height: 80px;
+  -webkit-box-shadow: 0px 5px 11px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 5px 11px -5px rgba(0, 0, 0, 0.75);
+  position: fixed;
+  z-index: 9999; }
+
+.contenedor-menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.logo {
+  color: white; }
+
+.menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 80px; }
+
+.submenu {
+  margin: 5px;
+  height: 100%; }
+  .submenu a {
+    color: white;
+    height: 100%;
+    padding: 5px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 18px; }
+
+.icon-menu {
+  display: none; }
+
+@media screen and (max-width: 768px) {
+  .menu {
+    position: absolute;
+    top: 80px;
+    background: #38444d;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    right: 100%;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    z-index: 9999; }
+    .menu li {
+      padding: 10px;
+      border-top: 1px solid white;
+      width: 100%; }
+  .icon-menu {
+    display: block;
+    color: white;
+    font-size: 40px;
+    height: 45px;
+    padding: 5px;
+    cursor: pointer; }
+  .movimiento {
+    right: 0;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s; } }
+
+@media screen and (max-width: 369px) {
+  .logo h1 {
+    font-size: 20px; } }

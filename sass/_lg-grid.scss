@@ -1,0 +1,9 @@
+$color-primario:#3A4750;
+$color-secundario:#2a526d;
+$fuente:'Raleway', sans-serif;
+
+@mixin flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

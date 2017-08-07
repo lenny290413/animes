@@ -1,0 +1,41 @@
+doctype html
+html(lang="es")
+    head
+        title Animes En Español
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        link(rel="stylesheet", href="css/menu.css")
+        link(rel="stylesheet", href="css/estilos.css")
+        link(rel="stylesheet", href="css/footer.css")
+        link(rel="stylesheet", href="css/serie-naruto.css")
+        
+        link(rel="stylesheet",href="https://file.myfontastic.com/whw7pA3v7r2cTPtVDYrKxS/icons.css")                
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Raleway:400,800")
+        
+        script(src="https://code.jquery.com/jquery-1.11.3.min.js")
+        
+    include menu
+    body
+        .slider-serie
+            img(src="imagenes/yu-gi-oh/portada.jpg")
+        h2.titulo Sinopsis
+        .informacion-contenedor.largo
+            .informacion.distancia
+                .informacion-imagen
+                    img(src="imagenes/yu-gi-oh/Yugi-Oh.jpg")
+                .informacion-texto
+                    p YuGiOh está protagoniza por Yugi, un chico normal de instituto que un día recibe como regalo de su abuelo un extraño rompecabezas. Un rompecabezas que a pesar de su dificultad, Yugi logra montar, creando así una pequeña pirámide que desde entonces, lleva colgada a su cuello. Pero esa pirámide alberga algo en su interior mucho más importante que un simple rompecabezas, y es que se trata de un rompecabezas milenario, perteneciente a los antiguos faraones egipcios. Es así como Yugi pasa de ser un chico normal a ser algo más especial que el resto, gracias al poder del puzzle. Y así, sin que se de cuenta alguna, un extraño ser empieza a formar parte de él, un extraño ser cuyo poder proviene del puzzle: el faraón Atem.
+
+        h2.titulo Tags 
+        .tags-general.largo
+            .tags.distancia
+                h2 yugioh
+                h2 yugioh audio latino
+                h2 yugioh capitulo 
+                h2 yugioh capitulos
+                h2 yugioh online
+                
+        h2.titulo Yu Gi Oh
+        include lista-yugioh
+        script(src="js/menu.js")
+    include footer

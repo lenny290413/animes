@@ -1,0 +1,33 @@
+doctype html
+html(lang="es")
+    head 
+        title Animes En Español
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        include ../meta-keywords-yugioh
+        link(rel="stylesheet", href="../css/menu.css")
+        link(rel="stylesheet", href="../css/estilos.css")
+        link(rel="stylesheet", href="../css/footer.css")
+        link(rel="stylesheet", href="../css/plantilla-capitulos.css")
+        
+        link(rel="stylesheet",href="https://file.myfontastic.com/whw7pA3v7r2cTPtVDYrKxS/icons.css")                
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Raleway:400,800")
+        
+        script(src="https://code.jquery.com/jquery-1.11.3.min.js")
+        
+        link(href="http://vjs.zencdn.net/6.2.0/video-js.css",rel="stylesheet")
+    include ../menu
+    body
+        h2.titulo YuGiOh Capítulo 63
+        include ../anuncios.pug
+        .video-contenedor.largo
+            .video.distancia
+                video#my-video.video-js(controls,preload="auto",width="100%", heigth="100%",data-setup="{}")
+                 source(src="//content.jwplatform.com/videos/lLiB7yKV.mp4?sig=a2979d0a02b91c70c710b5eac25efb9d&exp=1501545922/preview.mp4", type="video/mp4")
+            .botones
+                a(href="yugioh-capitulo-062.html").icon-chevron-izquierda
+                a(href="../serie-yugioh.html").icon-contenido
+                a(href="yugioh-capitulo-064.html").icon-chevron-derecha
+        script(src="http://vjs.zencdn.net/6.2.0/video.js")
+        script(src="../js/menu.js")
+    include ../footer 

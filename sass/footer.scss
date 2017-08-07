@@ -1,0 +1,22 @@
+@import "_lg-grid";
+footer{
+    background: $color-secundario;
+    padding: 20px;
+    margin-top: 50px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo{
+        font-size: 14px !important;   
+    }
+    .redes{
+        @include flexbox;
+        a{
+            color: white;
+            font-size: 20px;
+            margin: 5px;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+doctype html
+html(lang="es")
+    head
+        title Animes En Español
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        link(rel="stylesheet", href="css/menu.css")
+        link(rel="stylesheet", href="css/estilos.css")
+        link(rel="stylesheet", href="css/slider.css")
+        link(rel="stylesheet", href="css/inicio.css")
+        link(rel="stylesheet", href="css/footer.css")
+        
+        link(rel="icon", href="favicon.ico", type="image/x-icon")
+        link(rel="shortcut icon", href="favicon.ico",type="image/x-icon")
+        
+        link(rel="stylesheet",href="https://file.myfontastic.com/whw7pA3v7r2cTPtVDYrKxS/icons.css")                
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Raleway:400,800")
+        
+        script(src="https://code.jquery.com/jquery-1.11.3.min.js")
+        
+        include metas
+    include menu
+    body 
+        include slider 
+        include contenido-inicio
+         
+        script(src="js/menu.js")
+    include footer

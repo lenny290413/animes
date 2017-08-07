@@ -1,0 +1,46 @@
+@import "_lg-grid";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+h1,h2,h3,h4,h5{
+    font-weight: normal;
+}
+body,header,footer{
+    font-family: $fuente;
+}
+.largo{
+    width: 100%;
+    @include flexbox;
+}
+
+.distancia{
+    width: 90%;
+}
+.titulo{
+    text-align: center;
+    margin: 10px 0;
+}
+.tags{
+    width: 90%;
+    @include flexbox;
+    flex-wrap: wrap;
+    h2{
+        flex: auto;
+        font-size: 12px;
+        padding: 5px;
+        margin: 5px;
+        border: 1px solid $color-secundario;
+        text-align: center;
+        border-radius: 8px;
+    }
+}
