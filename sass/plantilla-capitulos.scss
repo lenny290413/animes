@@ -1,7 +1,7 @@
 @import "_lg-grid";
 .video{
     height: 400px;
-    
+    margin-top: 80px;
 }
 .video-js{
     width: 100% !important;
@@ -16,11 +16,16 @@
     width: 90%;
     a{
         @include flexbox;
-        flex: auto !important;
-        padding: 10px;
+        padding: 10px 20px;
         font-size: 20px;
-        color: $color-secundario;
         border: 1px solid $color-primario;
         margin: 5px;
+        border-radius: 10px;
+        background: $color-primario;
+        color: white;
+        box-shadow: 0px 5px 11px -5px rgba(0,0,0,0.75);
+        &:active{
+            padding: 8px 18px;
+        }
     }
 }

@@ -119,3 +119,28 @@ a.contenido{
         cursor:pointer;
     }
 }
+
+@media screen and (max-width:768px){
+    div.contenido{
+        flex-direction: column;
+    }
+    .contenido-derecha,.contenido-izquierda{
+        width: 100%;
+    }
+    a.contenido{
+        flex: auto;
+        width: 45%;
+    }
+    
+.boletin-contenido{
+    input:nth-child(2){
+        width: 80%;
+        }
+    }
+}
+
+@media screen and (max-width:369px){
+     a.contenido{
+        width: 100%;
+    }
+}

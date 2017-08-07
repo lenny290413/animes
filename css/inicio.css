@@ -135,3 +135,25 @@ a.contenido {
   background: #2a526d;
   color: white;
   cursor: pointer; }
+
+@media screen and (max-width: 768px) {
+  div.contenido {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .contenido-derecha, .contenido-izquierda {
+    width: 100%; }
+  a.contenido {
+    -webkit-box-flex: 1;
+    -webkit-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    width: 45%; }
+  .boletin-contenido input:nth-child(2) {
+    width: 80%; } }
+
+@media screen and (max-width: 369px) {
+  a.contenido {
+    width: 100%; } }

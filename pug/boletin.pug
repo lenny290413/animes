@@ -2,6 +2,6 @@
     h2.subtitulo Suscríbete.!
     h3  Te enviaremos a tu correo cada vez que subamos un capitulo nuevo de cada serie<br> No te enviaremos publícidad   
     .boletin-contenido
-        form
-            input(type="text", placeholder="E-mail")
-            input(type="submit", value="Suscribirme")
+        form(action="enviar.php", method="post")
+            input(type="text", placeholder="E-mail", name="correo", required)
+            input(type="submit", value="Suscribirme") 
